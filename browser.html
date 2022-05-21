@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="About.HTML">About</a>
+  <a href="index.html">HOME</a>
+  <a href="project.html">project</a>
+  <a href="blog.html">video</a>
+</div>
+
+<h2>Animated Sidenav Example</h2>
+<p>Click on the element below to open the side navigation menu.</p>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<h3><br>Who does not use a browser these days? Everyone does. Creating a browser with a lot of utility is a bit time taking and difficult in the real world, but what if today in this article we will Create Your Own Web Browser Using Python.
+
+So today in this article, we are going to create a web browser that is simple and usable. We will make a browser that will have some of the common features like the forward and backward button, home button, etc.
+
+Before starting with the coding of Web Browser Using Python, let us clear the difference between the two widely used words Browser and Search Engine.
+Browser: A web browser is an application that allows you to access information on the Internet. Web browser helps to assist users in having an interactive online session on the World Wide Web/Internet. Example: Chrome, Firefox, etc.<br><br>
+<h1>Browser Features:
+Home Button: This button must-have capability to take the user directly to the home page.
+Forward Button: This button will take the user to the next site.
+Back Button: This button will take the user to previously visited websites.
+Refresh Button: It will have the capability to refresh the content of the site.</h1>
+<h2>Getting Started:
+<br>Step 1: About Libraries & Its Installtion:
+PyQTt5: PyQt5 is one of the most popular Python modules for creating graphical user interfaces as it is very easy to use for beginners. The PyQt5 designer makes it so easy to construct complex GUI programs in a short amount of time, and it is also another wonderful feature that motivates developers to choose PyQt5.<br></h2>
+
+
+<h1><br>PyQtWebEngine: The framework is built on the Chrome browser and allows users to embed online content in their apps. The bindings are built on top of PyQt5 and are divided into three modules that match the framework’s various libraries.
+
+Now, let us see how to install these libraries.</br>
+
+<br>1.PyQt5</b1>
+<br>2.PyQtWebEngine</b1>
+<br>3.To install the PyQt5 library, enter the following command in the cmd:pip install PyQt5</b1>
+<br>4.To install the PyQtWebEngine library, enter the following command in the cmd:pip install PyQtWebEngine</b1>
+</h1>
+<h2>
+<h1>Step 2: Importing required modules:
+<br>1.import sys</b1>
+<br>2.from PyQt5.QtCore import *</b1>
+<br>3.from PyQt5.QtWidgets import *</b1>
+<br>4.from PyQt5.QtWebEngineWidgets import *</b1>
+</h1>
+<h1>step 3: download the source code </h1>
+<h1><a href="https://drive.google.com/file/d/1VCx7GjvoV5dVqV2DHTc8n8XznfFHPR0j/view?usp=sharing" class="button">DOWNLOAD</a></h1>
+   
+</body>
+</html> 
